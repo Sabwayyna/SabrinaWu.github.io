@@ -1,4 +1,3 @@
-/* Add this CSS code to your stylesheet */
 body {
     cursor: url('images/cursor.png'), auto;
 }
@@ -18,8 +17,7 @@ body{
     
 p{
     line-height:1.5em;
-    }
-    
+    }  
 
 /* IMAGE STYLES */
 img {
@@ -29,7 +27,6 @@ img {
     margin: 0 auto;
 }
 
-/* SUB-HEAD STYLES */
 .subhead-de, .subhead-en, .subhead-fr{
 margin-top:2rem;
     }
@@ -38,8 +35,6 @@ margin-top:2rem;
 font-weight:700;
 }
     
-    
-
 /* (1270px) */
 @supports (display:grid){	
 @media (min-width:1024px){
@@ -67,15 +62,13 @@ font-weight:700;
 p{
       font-weight:700;
     }
-    
 
     /* IMAGE STYLES */	
     img{
         grid-column:1 / 5;
         grid-row:3 / 4;
         }			
-        
-        
+           
     /* SUB-HEAD STYLES */		
     .subhead-de, .subhead-en, .subhead-fr{
   margin-top:0;
@@ -96,7 +89,6 @@ p{
         grid-column:4 / 5;
         grid-row:2 / 3;
         }
-    
 
     /* BODYTEXT STYLES */
     .bodytext-de, .bodytext-en, .bodytext-fr{
@@ -118,8 +110,6 @@ p{
         grid-row:4 / 5;
         }	
     }
-
-
 /* (1280px) */
 
 @media (min-width:1280px){
@@ -129,7 +119,6 @@ body{
   font-size:100%;
 }
 }
-
 
 /*Image Slide Style*/
 .carousel {
@@ -297,11 +286,9 @@ input:checked + .slide-container .nav label { display: block; }
     }
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) {
    
 }
-
 
 @media (min-width: 1024px) {
    
