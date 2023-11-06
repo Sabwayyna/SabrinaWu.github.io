@@ -265,6 +265,20 @@ main {
 
 }
 
+.division {
+  width: 100%; 
+  overflow: hidden;
+}
+
+.massive-text {
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
 
 #icon-page-top {
   display: flex;
