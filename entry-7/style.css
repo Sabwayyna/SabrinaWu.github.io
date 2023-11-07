@@ -129,7 +129,7 @@ body {
   #menuToggle:checked ~ .menuEffects {
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.5s;
+    
   }
   
   #menuToggle:checked ~ .menuEffects ul {
@@ -164,6 +164,9 @@ body {
     transform: translateY(-30%);
   }
   
+  .layout {
+    font-weight: 500;
+  }
 /*GRIDS AND Format*/
 
 .grid { display: grid; }
@@ -371,6 +374,7 @@ main {
 
 #article-text {
   text-align: justify;
+  font-weight: 500;
 }
 
 #article-text p {
@@ -463,3 +467,51 @@ main {
 
 }
 
+/* Responsive! for Multiple Size */
+@media screen and (max-width: 768px) {
+  #menuArea {
+    width: 100%;
+    text-align: center;
+  }
+
+  #icon-page-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #icon-page-top p {
+    margin: 1rem 0;
+  }
+
+  .half-left,
+  .half-right {
+    width: 100%;
+  }
+
+  .massive-text {
+    font-size: 1rem;
+    letter-spacing: 10px;
+    margin-left: 1rem;
+  }
+
+  #btm-right {
+    margin: 0;
+  }
+
+  #byline {
+    align-items: center;
+    text-align: center;
+  }
+
+  #article-text p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .massive-text {
+    font-size: 3rem;
+    letter-spacing: 30px;
+    margin-left: 1rem;
+  }
+}
